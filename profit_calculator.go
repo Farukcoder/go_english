@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main3() {
 	revenue := getUserInput("Revenue: ")
 	expenses := getUserInput("Expenses: ")
 	taxRate := getUserInput("Tax Rate (in %): ")
