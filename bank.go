@@ -27,7 +27,7 @@ func getBalanceFromFile() (float64, error) {
 	return balance, nil
 }
 
-func main() {
+func main2() {
 
 	var accountBalance, err = getBalanceFromFile()
 	if err != nil {
@@ -40,13 +40,7 @@ func main() {
 	count := 200
 
 	for i := 0; i < count; i++ {
-		fmt.Println("Welcome to Go Bank!!")
-		fmt.Println("What do you want to do?")
-		fmt.Println("1. Check Balance")
-		fmt.Println("2. Deposit Money")
-		fmt.Println("3. Withdraw Money")
-		fmt.Println("4. Exit")
-
+		presentOptions()
 		var choice int
 		fmt.Print("Enter your choice (1-4): ")
 		fmt.Scan(&choice)
