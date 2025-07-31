@@ -27,7 +27,7 @@ func getBalanceFromFile() (float64, error) {
 	return balance, nil
 }
 
-func main() {
+func main3() {
 
 	var accountBalance, err = getBalanceFromFile()
 	if err != nil {

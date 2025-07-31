@@ -1,0 +1,3 @@
+EBT: $994.50
+Profit: $895.05
+Profit Ratio: 0.99%
