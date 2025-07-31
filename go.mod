@@ -1,3 +1,3 @@
-module example.com/profit_calculator
+module example.com/pointer
 
 go 1.22.5
